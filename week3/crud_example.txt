@@ -1,0 +1,19 @@
+> create int a 10
+< a=10
+
+> read int a
+< 10
+
+> update int a 20
+< a=20
+
+> create string a JustDoIt
+< a=JustDoIt
+
+> read a
+< a:string=JustDoIt
+< a:int=20
+
+> delete a
+< del(a:string)
+< del(a:int)
