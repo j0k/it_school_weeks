@@ -1,0 +1,11 @@
+E:\Users\jz\source\repos\day02\day02\bin\Debug\netcoreapp2.1\day02.deps.json
+E:\Users\jz\source\repos\day02\day02\bin\Debug\netcoreapp2.1\day02.runtimeconfig.json
+E:\Users\jz\source\repos\day02\day02\bin\Debug\netcoreapp2.1\day02.runtimeconfig.dev.json
+E:\Users\jz\source\repos\day02\day02\bin\Debug\netcoreapp2.1\day02.dll
+E:\Users\jz\source\repos\day02\day02\bin\Debug\netcoreapp2.1\day02.pdb
+E:\Users\jz\source\repos\day02\day02\obj\Debug\netcoreapp2.1\day02.csproj.CoreCompileInputs.cache
+E:\Users\jz\source\repos\day02\day02\obj\Debug\netcoreapp2.1\day02.AssemblyInfoInputs.cache
+E:\Users\jz\source\repos\day02\day02\obj\Debug\netcoreapp2.1\day02.AssemblyInfo.cs
+E:\Users\jz\source\repos\day02\day02\obj\Debug\netcoreapp2.1\day02.dll
+E:\Users\jz\source\repos\day02\day02\obj\Debug\netcoreapp2.1\day02.pdb
+E:\Users\jz\source\repos\day02\day02\obj\Debug\netcoreapp2.1\day02.csprojAssemblyReference.cache
