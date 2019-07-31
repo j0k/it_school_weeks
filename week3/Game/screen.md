@@ -1,3 +1,4 @@
+```
 Game, Level, Monster
 
 example: level 10x10
@@ -265,3 +266,4 @@ if they reach the player => player.life --; monster.life --;
 
 for example: each monsters have only 1 life points. player have more then one;
 also player can fire the monster
+```
