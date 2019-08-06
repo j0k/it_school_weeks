@@ -1,0 +1,30 @@
+﻿@model WebQSort.Models.QSortResponse
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thanks!</title>
+</head>
+<body>
+    <p>
+        <h1>
+            Thank you, @Model.Name!
+        </h1>
+    </p>
+    <p>
+        Values equal to: @Model.Values
+    </p>
+    <p>
+        Sorted values equal to: @Model.OrderedValues
+    </p>
+    <a asp-action="ListResponses">List all responses.</a>
+    <a asp-action="RsvpForm">Go to RSVP Form</a>
+</body>
+</html>
+
+
+

@@ -1,0 +1,23 @@
+# ASP.net and all around
+
+1. https://dotnet.microsoft.com/learn/web/what-is-aspnet
+2. [ASP.NET MVC. Урок 0. Вступление](https://habr.com/ru/post/175999/)
+3. [ASP.NET MVC Урок 1. Начало](https://habr.com/ru/post/176001/)
+4. [ASP NET.MVC Урок 3. Работа с БД](https://habr.com/ru/post/176017/)
+5. [Путь ASP.NET Core - уровень 1- Основы](https://habr.com/ru/post/312226/)
+6. [Как работает конфигурация в .NET Core](https://habr.com/ru/post/453416/)
+7. [Путь разработчика ASP.NET → PHP](https://habr.com/ru/post/332868/)
+8. [Логическая игра с нуля на ASP.NET Core 2, поиграем?](https://habr.com/ru/post/336590/)
+9. [Устройство памяти в .NET](https://habr.com/ru/sandbox/72484/)
+10. [ASP.NET MVC and Web API - Comparison of Async / Sync Actions](https://gokhansengun.com/asp-net-mvc-and-web-api-comparison-of-async-or-sync-actions/)
+11. [Not much difference between ASP.NET Core sync and async controller actions](https://stackoverflow.com/questions/48015096/not-much-difference-between-asp-net-core-sync-and-async-controller-actions)
+12. [Using Asynchronous Methods in ASP.NET 4.5](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/performance-and-caching/using-asynchronous-methods-in-aspnet-45)
+13. [C# 7 Series, Part 10: Span<T> and universal memory management](https://blogs.msdn.microsoft.com/mazhou/2018/03/25/c-7-series-part-10-spant-and-universal-memory-management/)
+14. [Aсинхронное программирование: Асинхронные методы, async и await](https://metanit.com/sharp/tutorial/13.3.php)
+15. [Use of await in Razor views](https://stackoverflow.com/questions/19182349/use-of-await-in-razor-views)
+16. [What's the point of using @RenderBody in a MVC Razor view?](https://stackoverflow.com/questions/14322458/whats-the-point-of-using-renderbody-in-a-mvc-razor-view)
+17. [Учимся быть фуллстек разработчиками. Пишем приложение на React/Redux/Webpack/ASP.NET Core 2.0/EF Core](https://habr.com/ru/post/350298/)
+18. [Логическая игра с нуля на ASP.NET Core 2, поиграем?](https://habr.com/ru/post/336590/)
+19. [Add player verification logic and UI tweaks](https://github.com/gbdrm/TheRooms/commit/af0560518f06f278666b935af23721dea49f26c7)
+20. [C# Intermediate – Properties in C#](https://code-maze.com/csharp-properties/)
+21. []()

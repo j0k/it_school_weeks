@@ -1,0 +1,38 @@
+﻿@model WebQSort.Models.QSortResponse
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+       <title>RsvpForm</title>
+</head>
+<body>
+    <div>
+        This is the RsvpForm.cshtml view
+    </div>
+
+    <form asp-action="RsvpForm" method="post">
+        <p>
+            <label asp-for="Name">Your name:</label>
+            <input asp-for="Name" />
+        </p>
+        <p>
+            <label asp-for="Values">Your values:</label>
+            <input asp-for="Values" />
+        </p>
+        <p>
+            <label>Do you prefer ascending order?</label>
+            <select asp-for="Order">
+                <option value="">Choose an option</option>
+                <option value="true">Yes, I prefer ascend</option>
+                <option value="false">No, I prefer descend</option>
+            </select>
+        </p>
+        <button type="submit">Submit RSVP</button>
+    </form>
+</body>
+</html>
+
+

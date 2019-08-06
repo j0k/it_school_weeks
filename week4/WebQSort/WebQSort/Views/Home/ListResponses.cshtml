@@ -1,0 +1,39 @@
+﻿@model IEnumerable<QSortResponse>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List Responses</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <h2>Here is a list of all responses</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Values</th>
+                <th>Sorted values</th>
+            </tr> 
+        </thead>
+        <tbody>
+            @foreach(QSortResponse resp in Model)
+            {
+            <tr>
+                <td>@resp.Name</td>
+                <td>@resp.Values</td>
+                <td>@resp.OrderedValues</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-action="RsvpForm">Go to RSVP Form</a>
+</body>
+</html>
+
+
+
+
