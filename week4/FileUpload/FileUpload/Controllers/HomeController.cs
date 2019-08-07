@@ -5,39 +5,36 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using FileUpload.Models;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
 
 namespace FileUpload.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IHostingEnvironment _host;
+        public HomeController(IHostingEnvironment host)
+        {
+            _host = host;
+        }
         public IActionResult Index()
-        {
+        {            
             return View();
         }
 
-        public IActionResult About()
+        [HttpPost]
+        public async Task<IActionResult> Index(Picture picture)
         {
-            ViewData["Message"] = "Your application description page.";
-
+            if (picture.File.Length > 0)
+            {
+                var filename = Path.GetFileName(picture.File.FileName);                
+                var path = Path.Combine(_host.WebRootPath + "/upload", filename);
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    await picture.File.CopyToAsync(stream);
+                }
+            }
             return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
